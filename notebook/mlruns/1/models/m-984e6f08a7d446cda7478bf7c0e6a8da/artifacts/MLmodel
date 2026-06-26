@@ -1,0 +1,36 @@
+artifact_path: file:C:/Users/nithis kumar/OneDrive/Desktop/DATASCIENCE/Projects/Purchase-Power-Prediction-PPP-/notebook/mlruns/1/models/m-984e6f08a7d446cda7478bf7c0e6a8da/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-984e6f08a7d446cda7478bf7c0e6a8da
+model_size_bytes: 1645
+model_uuid: m-984e6f08a7d446cda7478bf7c0e6a8da
+prompts: null
+run_id: 8dc835cdf5f84aa089ffdd43dc01adf7
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "age", "required": true}, {"type": "double",
+    "name": "income", "required": true}, {"type": "double", "name": "savings_rate",
+    "required": true}, {"type": "double", "name": "debt_ratio", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-26 16:07:06.308058'
