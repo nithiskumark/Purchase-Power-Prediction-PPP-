@@ -1,0 +1,8 @@
+                     precision    recall  f1-score   support
+
+ Low Purchase Power       0.88      0.90      0.89       539
+High Purchase Power       0.88      0.85      0.87       461
+
+           accuracy                           0.88      1000
+          macro avg       0.88      0.88      0.88      1000
+       weighted avg       0.88      0.88      0.88      1000
